@@ -1,14 +1,45 @@
 {
-  "sources": [
-    { "name": "123", "searchUrl": "123 1" },
-    { "name": "222", "searchUrl": "222 1" },
-    { "name": "333", "searchUrl": "333 1" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+    "sources":[
+        {
+            "name":"1",
+            "domain":"www.whitepiao.com",
+            "searchExpression":"1",
+            "loadCatalogueExpression":"1",
+            "findStreamExpression":"1",
+            "sourceUrl":"1",
+            "isEnable":false
+        },
+        {
+            "name":"2",
+            "domain":"www.whitepiao.com",
+            "searchExpression":"2",
+            "loadCatalogueExpression":"2",
+            "findStreamExpression":"2",
+            "sourceUrl":"2"
+        },
+        {
+            "name":"3",
+            "domain":"www.whitepiao.com",
+            "searchExpression":"3",
+            "loadCatalogueExpression":"3",
+            "findStreamExpression":"3",
+            "sourceUrl":"3",
+            "groupName":"3"
+        }
+    ],
+    "comments":[
+        {
+            "id":1,
+            "body":"some comment",
+            "postId":1
+        },
+        {
+            "id":2,
+            "body":"some comment",
+            "postId":1
+        }
+    ],
+    "profile":{
+        "name":"typicode"
+    }
 }
