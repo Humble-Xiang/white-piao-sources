@@ -7,7 +7,7 @@
             "loadCatalogueExpression":"1",
             "findStreamExpression":"1",
             "sourceUrl":"1",
-            "isEnable":false
+            "isEnable":"0"
         },
         {
             "name":"2",
