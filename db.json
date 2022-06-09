@@ -1,30 +1,25 @@
 {
     "sources":[
         {
-            "name":"1",
-            "domain":"www.whitepiao.com",
-            "searchExpression":"1",
+            "name":"天天视频",
+            "domain":"www.ttsp.tv",
+            "searchExpression":"document=getDocument('https://www.ttsp.tv/vodsearch/-------------.html?wd='+keyword);list=document.querySelectorAll('.searchlist_item');discoveries=map(list,'   discoveryBuilder()     .title(_item.querySelector(\"a\").attributes[\"title\"])     .catalogueUrl(_item.querySelector(\"a\").attributes[\"href\"])     .type(_item.querySelector(\".info_right\").text)     .actors(_item.querySelector(\".vodlist_sub\").text)     .intro(_item.querySelectorAll(\".vodlist_sub\")[2].text)   .build(); ');",
             "loadCatalogueExpression":"1",
-            "findStreamExpression":"1",
-            "sourceUrl":"1",
-            "isEnable":"0"
+            "findStreamExpression":"1"
         },
         {
-            "name":"2",
-            "domain":"www.whitepiao.com",
-            "searchExpression":"2",
-            "loadCatalogueExpression":"2",
-            "findStreamExpression":"2",
-            "sourceUrl":"2"
+            "name":"天天视频2",
+            "domain":"www.ttsp.tv",
+            "searchExpression":"document=getDocument('https://www.ttsp.tv/vodsearch/-------------.html?wd='+keyword);list=document.querySelectorAll('.searchlist_item');discoveries=map(list,'   discoveryBuilder()     .title(_item.querySelector(\"a\").attributes[\"title\"])     .catalogueUrl(_item.querySelector(\"a\").attributes[\"href\"])     .type(_item.querySelector(\".info_right\").text)     .actors(_item.querySelector(\".vodlist_sub\").text)     .intro(_item.querySelectorAll(\".vodlist_sub\")[2].text)   .build(); ');",
+            "loadCatalogueExpression":"1",
+            "findStreamExpression":"1"
         },
         {
-            "name":"3",
-            "domain":"www.whitepiao.com",
-            "searchExpression":"3",
-            "loadCatalogueExpression":"3",
-            "findStreamExpression":"3",
-            "sourceUrl":"3",
-            "groupName":"3"
+            "name":"天天视频3",
+            "domain":"www.ttsp.tv",
+            "searchExpression":"document=getDocument('https://www.ttsp.tv/vodsearch/-------------.html?wd='+keyword);list=document.querySelectorAll('.searchlist_item');discoveries=map(list,'   discoveryBuilder()     .title(_item.querySelector(\"a\").attributes[\"title\"])     .catalogueUrl(_item.querySelector(\"a\").attributes[\"href\"])     .type(_item.querySelector(\".info_right\").text)     .actors(_item.querySelector(\".vodlist_sub\").text)     .intro(_item.querySelectorAll(\".vodlist_sub\")[2].text)   .build(); ');",
+            "loadCatalogueExpression":"1",
+            "findStreamExpression":"1"
         }
     ],
     "comments":[
