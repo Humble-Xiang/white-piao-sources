@@ -4,21 +4,21 @@
             "name":"天天视频",
             "host":"https://www.ttsp.tv",
             "searchExpression":"document=getDocument('https://www.ttsp.tv/vodsearch/-------------.html?wd='+keyword);list=document.querySelectorAll('.searchlist_item');discoveries=map(list,'   discoveryBuilder()     .title(_item.querySelector(\"a\").attributes[\"title\"])     .catalogueUrl(_item.querySelector(\"a\").attributes[\"href\"])     .type(_item.querySelector(\".info_right\").text)    .actors(_item.querySelector(\".vodlist_sub\").text)     .intro(_item.querySelectorAll(\".vodlist_sub\")[2].text)  .image(_item.querySelector(\".vodlist_thumb\").attributes[\"data-original\"])   .build();  ');",
-            "loadCatalogueExpression":"1",
+            "loadSeriesExpression":"1",
             "findStreamExpression":"1"
         },
         {
             "name":"天天视频2",
             "host":"https://www.ttsp.tv",
             "searchExpression":"document=getDocument('https://www.ttsp.tv/vodsearch/-------------.html?wd='+keyword);list=document.querySelectorAll('.searchlist_item');discoveries=map(list,'   discoveryBuilder()     .title(_item.querySelector(\"a\").attributes[\"title\"])     .catalogueUrl(_item.querySelector(\"a\").attributes[\"href\"])     .type(_item.querySelector(\".info_right\").text)    .actors(_item.querySelector(\".vodlist_sub\").text)     .intro(_item.querySelectorAll(\".vodlist_sub\")[2].text)  .image(_item.querySelector(\".vodlist_thumb\").attributes[\"data-original\"])   .build();  ');",
-            "loadCatalogueExpression":"1",
+            "loadSeriesExpression":"1",
             "findStreamExpression":"1"
         },
         {
             "name":"天天视频3",
             "host":"https://www.ttsp.tv",
             "searchExpression":"document=getDocument('https://www.ttsp.tv/vodsearch/-------------.html?wd='+keyword);list=document.querySelectorAll('.searchlist_item');discoveries=map(list,'   discoveryBuilder()     .title(_item.querySelector(\"a\").attributes[\"title\"])     .catalogueUrl(_item.querySelector(\"a\").attributes[\"href\"])     .type(_item.querySelector(\".info_right\").text)    .actors(_item.querySelector(\".vodlist_sub\").text)     .intro(_item.querySelectorAll(\".vodlist_sub\")[2].text)  .image(_item.querySelector(\".vodlist_thumb\").attributes[\"data-original\"])   .build();  ');",
-            "loadCatalogueExpression":"1",
+            "loadSeriesExpression":"1",
             "findStreamExpression":"1"
         }
     ],
